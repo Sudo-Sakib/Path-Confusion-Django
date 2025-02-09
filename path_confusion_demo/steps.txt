@@ -1,0 +1,13 @@
+pip install django
+django-admin startproject path_confusion_demo
+cd path_confusion_demo
+python manage.py startapp demo
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'demo',  # Add this line
+]
